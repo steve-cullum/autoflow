@@ -6,7 +6,7 @@ import {
 } from 'constants/constants'; 
 
 const Welcome = () => (
-    <div class="welcomeMessage">
+    <div className="welcomeMessage">
         <h2>{SIGN_IN}</h2>
         <p>{WELCOME_MESSAGE}</p>
     </div>
