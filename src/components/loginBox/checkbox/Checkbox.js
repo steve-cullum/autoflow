@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types' 
 import './Checkbox.css'
 
 const Checkbox = (props) => {
@@ -20,6 +21,11 @@ const Checkbox = (props) => {
             <span><a href="/">{secondaryLabel}</a></span>
         </div>
     )
+}
+
+Checkbox.propTypes = {
+    label: PropTypes.string,
+    secondaryLabel: PropTypes.string,
 }
 
 export default Checkbox;
