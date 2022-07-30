@@ -19,7 +19,7 @@ const InputField = (props) => {
                 { 
                     type === 'password' &&
                         <i
-                            className="far fa-eye" 
+                            className="fa-solid fa-eye" 
                             id="togglePassword">
                         </i>
                 }   
