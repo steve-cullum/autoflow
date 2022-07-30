@@ -1,0 +1,121 @@
+.buttonGroup {
+    margin-bottom: 40px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.loginContainer {
+    align-items: center;
+    border-color: rgb(225, 225, 225);
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    min-height: 950px;
+    width: 450px;
+}
+
+.welcomeMessage {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.welcomeMessage h2 {
+    color: rgb(38,153,251);
+    font-family: 'Calibri';
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.welcomeMessage p {
+    color: rgb(121,192,252);
+    font-family: 'Calibri';
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.loginButton {
+    background-color: rgb(38,153,251);
+    border-radius: 5px;
+    border-style: none;
+    color: rgb(255,255,255);
+    cursor: pointer;
+    font-family: 'Calibri';
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    min-height: 50px;
+    text-transform: uppercase;
+    width: 100%;
+
+}
+
+.loginButton:hover {
+    background-color: rgb(225,225,225);
+    border-color: rgb(200,200,200);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(38,153,251);
+}
+
+.signUpButton {
+    background-color: rgb(255,255,255);
+    border-color: rgb(38,153,251);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(38,153,251);
+    cursor: pointer;
+    font-family: 'Calibri';
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    min-height: 50px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.signUpButton:hover {
+    background-color: rgb(225,225,225);
+    border-color: rgb(200,200,200);
+    border-radius: 5px;
+    color: rgb(255,255,255);
+}
+
+.logoContainer {
+    color:rgb(38,153,251);
+    font-family: "Calibri";
+    font-size: 2.5rem;
+    font-weight :900;
+    left: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    position: relative;
+}   
+
+.logo {
+    background-color: rgb(38,153,251);
+    border-radius: 35%;
+    font-family: "Calibri";
+    height: 50px;
+    left: -63px;
+    position: absolute;
+    top: 2px;
+    transform:rotate(45deg);
+    width: 50px;
+}
+
+.logo div {
+    color: rgb(255, 255, 255);
+    font-size: 46px;
+    font-weight: 600;
+    left: 14px;
+    position: absolute;
+    top: -4px;
+    transform:rotate(-45deg);
+}

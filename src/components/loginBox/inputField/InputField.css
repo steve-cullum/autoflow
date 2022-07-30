@@ -1,0 +1,39 @@
+.inputContainer {
+  position: relative;
+}
+
+.input {
+    background-color: rgb(241,249,255);
+    border-color: rgb(188,224,253);
+    border-radius: 5px;
+    border-style: solid;
+    color: rgb(38,153,251);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 5px;
+    min-height: 35px;
+    padding: 10px;
+    min-width: 375px;
+  }
+
+  .input:focus-visible {
+    outline: none;
+  }
+
+  .label {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .inputField {
+    color: rgb(38,153,251);
+    font-family: 'Calibri';
+    margin: 20px;
+  }
+
+  .far {
+    position: absolute;
+    top: 27px;
+    left: 360px;
+    cursor: pointer;
+  }
