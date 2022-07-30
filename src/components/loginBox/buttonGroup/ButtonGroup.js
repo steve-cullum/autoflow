@@ -5,7 +5,6 @@ import {
     SIGN_UP,
 } from 'constants/constants'; 
 
-
 const ButtonGroup = () => (
     <div className="buttonGroup">
         <button 

@@ -1,0 +1,32 @@
+.logoContainer {
+    color:rgb(38,153,251);
+    font-family: "Calibri";
+    font-size: 2.5rem;
+    font-weight :900;
+    left: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    position: relative;
+}   
+
+.logo {
+    background-color: rgb(38,153,251);
+    border-radius: 35%;
+    font-family: "Calibri";
+    height: 50px;
+    left: -63px;
+    position: absolute;
+    top: 2px;
+    transform:rotate(45deg);
+    width: 50px;
+}
+
+.logo div {
+    color: rgb(255, 255, 255);
+    font-size: 46px;
+    font-weight: 600;
+    left: 14px;
+    position: absolute;
+    top: -4px;
+    transform:rotate(-45deg);
+}
