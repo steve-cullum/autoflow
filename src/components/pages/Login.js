@@ -4,8 +4,7 @@ import './Login.css';
 
 const Login = () => (
     <form className="container">
-{/*         <div style={{ height: '200px', width: '200px', backgroundColor: 'red' }}></div> */}
-            <LoginBox />
+        <LoginBox />
     </form>
 )
 
